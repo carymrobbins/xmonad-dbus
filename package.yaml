@@ -24,6 +24,9 @@ dependencies:
 - dbus >= 0.10
 - utf8-string >= 1.0
 
+ghc-options:
+  - -dynamic
+
 library:
   source-dirs: src
 
