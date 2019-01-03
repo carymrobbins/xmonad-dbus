@@ -5,6 +5,13 @@ It can be used to easily display XMonad status in [polybar](https://github.com/j
 
 ## Building
 
+To install the binary and library globally, use the provided Makefile
+
+    make
+
+Otherwise, use stack. Note that if your XMonad is not built with stack then you won't be able to access the xmonad-dbus library,
+hence the Makefile referenced above is provided.
+
     stack build
 
 ## Running
